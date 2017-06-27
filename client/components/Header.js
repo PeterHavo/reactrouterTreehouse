@@ -8,10 +8,10 @@ const Header = () => (
           <a className="navbar-brand" href="#">React App</a>
         </div>
         <ul className="nav navbar-nav">
-          <li className="active"><a href="#">Home</a></li>
-          <li><a href="#">Page 1</a></li>
-          <li><a href="#">Page 2</a></li>
-          <li><a href="#">Page 3</a></li>
+          <li className="active"><a href="/">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Teachers</a></li>
+          <li><a href="#">Courses</a></li>
         </ul>
       </div>
     </nav>
