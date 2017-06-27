@@ -1,17 +1,19 @@
 import React from 'react';
+import {NavLink} from 'react-router-dom';
 
-const Header = (props) => (
+
+const Header = () => (
   
     <nav className="navbar navbar-default">
       <div className="container-fluid">
         <div className="navbar-header">
-          <a className="navbar-brand" href="#">React App</a>
+          <NavLink className="navbar-brand" to="/">React App</NavLink>
         </div>
         <ul className="nav navbar-nav">
-          <li className="active"><a href="/">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Teachers</a></li>
-          <li><a href="#">Courses</a></li>
+          <li ><NavLink to="/">Home</NavLink></li>
+          <li><NavLink to="/about">About</NavLink></li>
+          <li><NavLink to="/teachers">Teachers</NavLink></li>
+          <li><NavLink to="/courses">Courses</NavLink></li>
         </ul>
       </div>
     </nav>
@@ -21,4 +23,7 @@ const Header = (props) => (
 
 
 
-export default Header;
+
+
+
+ export default Header;
