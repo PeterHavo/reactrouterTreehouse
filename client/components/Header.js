@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Header = () => (
+const Header = (props) => (
   
     <nav className="navbar navbar-default">
       <div className="container-fluid">
