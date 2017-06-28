@@ -7,6 +7,7 @@ import About from './About';
 import Header from './Header';
 import Teachers from './Teachers';
 import Courses from './Courses';
+import NotFound from './NotFound';
 
 class App extends React.Component{
   constructor(props){
@@ -17,11 +18,13 @@ class App extends React.Component{
    
     <div className="container">
             <Header/>
+            <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/about" render={()=> <About title="This is about page"/>} />
             <Route path="/teachers" component={Teachers} />
             <Route path="/courses" component={Courses} />
-            
+            <Route component={NotFound} />
+            </Switch>
        
    </div>
         </BrowserRouter>
