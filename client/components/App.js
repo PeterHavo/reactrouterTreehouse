@@ -21,6 +21,7 @@ class App extends React.Component{
             <Route path="/about" render={()=> <About title="This is about page"/>} />
             <Route path="/teachers" component={Teachers} />
             <Route path="/courses" component={Courses} />
+            
        
    </div>
         </BrowserRouter>

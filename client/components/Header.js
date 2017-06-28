@@ -14,6 +14,8 @@ const Header = () => (
           <li><NavLink to="/about" activeStyle={{background:'#00c4cc'}}>About</NavLink></li>
           <li><NavLink to="/teachers" activeStyle={{background:'#00c4cc'}}>Teachers</NavLink></li>
           <li><NavLink to="/courses" activeStyle={{background:'#00c4cc'}}>Courses</NavLink></li>
+          {/*<li><NavLink to="/test" activeStyle={{background:'#00c4cc'}}>Test</NavLink></li>*/}
+
         </ul>
       </div>
     </nav>
