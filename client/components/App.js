@@ -8,21 +8,27 @@ import Header from './Header';
 import Teachers from './Teachers';
 import Courses from './Courses';
 import NotFound from './NotFound';
+import Featured from './Featured';
 
 class App extends React.Component{
   constructor(props){
       super(props);
   }
+ 
+
+
    render () {
     return (< BrowserRouter>
    
-    <div className="container">
+    <div className="container-fluid">
             <Header/>
             <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/about" render={()=> <About title="This is about page"/>} />
-            <Route path="/teachers" component={Teachers} />
-            <Route path="/courses" component={Courses} />
+            <Route path="/parnyStroj" render={()=> <About title="Parny stroj "/>} />
+            <Route exact path="/pismo" component={Teachers} />
+            <Route path="/pismo/:topic/:name" component={Featured} />
+                {/*<Route path="/teachers/:name" render={()=> <Featured/>} />*/}
+            <Route path="/hovoriacaMasina" component={Courses} />
             <Route component={NotFound} />
             </Switch>
        
