@@ -12,7 +12,7 @@ driver.wait(checkTitle, 500);
 
 function checkTitle () {
     var promise = driver.getCurrentUrl().then((url) => {
-        if (url == 'http://34.253.189.2/courses/html') {
+        if (url == 'http://54.171.50.153/courses/html') {
             console.log('success');
             return true;
         } else 
