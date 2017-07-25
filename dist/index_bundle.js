@@ -26085,7 +26085,7 @@ var Header = function Header() {
           null,
           _react2.default.createElement(
             _reactRouterDom.NavLink,
-            { to: '/courses', activeStyle: { background: '#457B9D' }, id: 'test' },
+            { to: '/courses', activeStyle: { background: '#456990' }, id: 'test' },
             'Courses'
           )
         )
