@@ -23495,12 +23495,12 @@ var App = function (_React$Component) {
             _reactRouterDom.Switch,
             null,
             _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _Home2.default }),
-            _react2.default.createElement(_reactRouterDom.Route, { path: '/parnyStroj', render: function render() {
-                return _react2.default.createElement(_About2.default, { title: 'Parny stroj ' });
+            _react2.default.createElement(_reactRouterDom.Route, { path: '/about', render: function render() {
+                return _react2.default.createElement(_About2.default, { title: 'About ' });
               } }),
-            _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/pismo', component: _Teachers2.default }),
+            _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/teachers', component: _Teachers2.default }),
             _react2.default.createElement(_reactRouterDom.Route, { path: '/pismo/:topic/:name', component: _Featured2.default }),
-            _react2.default.createElement(_reactRouterDom.Route, { path: '/hovoriacaMasina', component: _Courses2.default }),
+            _react2.default.createElement(_reactRouterDom.Route, { path: '/courses', component: _Courses2.default }),
             _react2.default.createElement(_reactRouterDom.Route, { component: _NotFound2.default })
           )
         )
@@ -26047,7 +26047,7 @@ var Header = function Header() {
         _react2.default.createElement(
           _reactRouterDom.NavLink,
           { className: 'navbar-brand', exact: true, to: '/', activeStyle: { background: '#A8DADC' } },
-          'Kempelenove Muzeum '
+          'Kempelen Muzeum '
         )
       ),
       _react2.default.createElement(
@@ -26067,8 +26067,8 @@ var Header = function Header() {
           null,
           _react2.default.createElement(
             _reactRouterDom.NavLink,
-            { to: '/parnyStroj', activeStyle: { background: '#00c4cc' } },
-            'Kempelen Parny Stroj'
+            { to: '/about', activeStyle: { background: '#00c4cc' } },
+            'About'
           )
         ),
         _react2.default.createElement(
@@ -26076,8 +26076,8 @@ var Header = function Header() {
           null,
           _react2.default.createElement(
             _reactRouterDom.NavLink,
-            { to: '/pismo', activeStyle: { background: '#B2DBBF' } },
-            'Kempelen Pismo pre Slepych'
+            { to: '/teachers', activeStyle: { background: '#B2DBBF' } },
+            'Teachers'
           )
         ),
         _react2.default.createElement(
@@ -26085,8 +26085,8 @@ var Header = function Header() {
           null,
           _react2.default.createElement(
             _reactRouterDom.NavLink,
-            { to: '/hovoriacaMasina', activeStyle: { background: '#FF1654' } },
-            'Kempelen Hovoriaca masina'
+            { to: '/courses', activeStyle: { background: '#FF1654' } },
+            'Courses'
           )
         )
       )
@@ -26249,7 +26249,7 @@ var Courses = function Courses(_ref) {
           _react2.default.createElement(
             _reactRouterDom.NavLink,
             { to: match.url + '/html' },
-            'Hovoriaca masina video'
+            'HTML'
           )
         ),
         _react2.default.createElement(
@@ -26258,7 +26258,7 @@ var Courses = function Courses(_ref) {
           _react2.default.createElement(
             _reactRouterDom.NavLink,
             { to: match.url + '/css' },
-            'Hovoriaca masina interaktivna fotka'
+            'CSS'
           )
         ),
         _react2.default.createElement(
@@ -26267,7 +26267,7 @@ var Courses = function Courses(_ref) {
           _react2.default.createElement(
             _reactRouterDom.NavLink,
             { to: match.url + '/javascript' },
-            'Hovoriaca masina a spolocnost'
+            'JavaScript'
           )
         ),
         _react2.default.createElement(
@@ -26276,7 +26276,7 @@ var Courses = function Courses(_ref) {
           _react2.default.createElement(
             _reactRouterDom.NavLink,
             { to: match.url + '/test' },
-            'Testovanie hovoriacej masiny'
+            'Test Component'
           )
         )
       )

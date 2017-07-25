@@ -25,11 +25,11 @@ class App extends React.Component{
             <Header/>
             <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/parnyStroj" render={()=> <About title="Parny stroj "/>} />
-            <Route exact path="/pismo" component={Teachers} />
+            <Route path="/about" render={()=> <About title="About "/>} />
+            <Route exact path="/teachers" component={Teachers} />
             <Route path="/pismo/:topic/:name" component={Featured} />
                 {/*<Route path="/teachers/:name" render={()=> <Featured/>} />*/}
-            <Route path="/hovoriacaMasina" component={Courses} />
+            <Route path="/courses" component={Courses} />
             <Route component={NotFound} />
             </Switch>
        

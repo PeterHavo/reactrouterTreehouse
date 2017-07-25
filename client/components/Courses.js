@@ -11,10 +11,10 @@ const Courses = ({match}) => (
     <div className="course-header group">
       <h2>Courses</h2> 
       <ul className="course-nav">
-        <li><NavLink  to={`${match.url}/html` } >Hovoriaca masina video</NavLink></li>
-        <li><NavLink to={`${match.url}/css`}>Hovoriaca masina interaktivna fotka</NavLink></li>
-        <li><NavLink to={`${match.url}/javascript`}>Hovoriaca masina a spolocnost</NavLink></li>
-        <li><NavLink to={`${match.url}/test`}>Testovanie hovoriacej masiny</NavLink></li>
+        <li><NavLink  to={`${match.url}/html` } >HTML</NavLink></li>
+        <li><NavLink to={`${match.url}/css`}>CSS</NavLink></li>
+        <li><NavLink to={`${match.url}/javascript`}>JavaScript</NavLink></li>
+        <li><NavLink to={`${match.url}/test`}>Test Component</NavLink></li>
       </ul>
     </div>
     
