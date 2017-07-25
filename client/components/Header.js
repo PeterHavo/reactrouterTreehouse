@@ -9,7 +9,7 @@ const Header = () => (
         <div className="navbar-header">
                     <NavLink className="navbar-brand" exact to="/eng">Eng</NavLink>
 
-          <NavLink className="navbar-brand" exact to="/" activeStyle={{background:'#A8DADC'}}>Kempelen Muzeum </NavLink>
+          <NavLink className="navbar-brand" exact to="/" activeStyle={{background:'#A8DADC'}}>Web App Trainings </NavLink>
           
         </div>
         <ul className="nav navbar-nav">
