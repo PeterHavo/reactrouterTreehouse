@@ -26047,7 +26047,7 @@ var Header = function Header() {
         _react2.default.createElement(
           _reactRouterDom.NavLink,
           { className: 'navbar-brand', exact: true, to: '/', activeStyle: { background: '#A8DADC' } },
-          'Kempelen Muzeum '
+          'Web App Trainings '
         )
       ),
       _react2.default.createElement(
