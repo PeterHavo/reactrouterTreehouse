@@ -17,7 +17,7 @@ const Header = () => (
           <li ><NavLink exact to="/">Home</NavLink></li>
           <li><NavLink to="/about" activeStyle={{background:'#00c4cc'}}>About</NavLink></li>
           <li><NavLink to="/teachers" activeStyle={{background:'#B2DBBF'}}>Teachers</NavLink></li>
-          <li><NavLink to="/courses" activeStyle={{background:'#E4FDE1'}} id="test">Courses</NavLink></li>
+          <li><NavLink to="/courses" activeStyle={{background:'#E63946'}} id="test">Courses</NavLink></li>
           {/*<li><NavLink to="/test" activeStyle={{background:'#00c4cc'}}>Test</NavLink></li>*/}
 
         </ul>
