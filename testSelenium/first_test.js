@@ -5,7 +5,7 @@ var driver = new webdriver.Builder().
    withCapabilities(webdriver.Capabilities.chrome()).
    build();
  
-driver.get('http://34.253.189.52');
+driver.get('http://54.194.235.211');
 driver.findElement(webdriver.By.id('test')).click();
 // driver.findElement(webdriver.By.name('btnG')).click();
 driver.wait(checkTitle, 500);
